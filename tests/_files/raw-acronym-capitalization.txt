@@ -1,0 +1,10 @@
+PHPUnit %s by Sebastian Bergmann and contributors.
+
+[4mTestDox acronym capitalization[0m
+ [32m✔[0m Fix the errors by adding @testdox annotations to class and methods
+ [32m✔[0m JSON to XML converter
+ [32m✔[0m PHPUnit's TestDox is human-readable
+
+Time: %s, Memory: %s
+
+[30;42mOK (3 tests, 3 assertions)[0m

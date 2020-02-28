@@ -1,0 +1,30 @@
+{
+    "name": "epdenouden/phpunit-testdox-tutorial",
+    "description": "Self-guided tutorial for PHPUnit TestDox human-readable reports.",
+    "type": "library",
+    "keywords": [
+        "phpunit",
+        "testing"
+    ],
+    "homepage": "https://phpunit.de/",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Ewout Pieter den Ouden",
+            "email": "ewoutdenouden@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/epdenouden/phpunit-testdox-tutorial/issues"
+    },
+    "prefer-stable": true,
+    "require-dev": {
+        "phpunit/phpunit": ">8.0"
+    },
+    "scripts": {
+        "test": [
+            "phpunit"
+        ]
+    }
+}
