@@ -12,6 +12,10 @@
          verbose="false">
 
     <testsuites>
+        <testsuite name="unit">
+            <directory suffix=".php">tests/unit</directory>
+        </testsuite>
+
         <testsuite name="testdox-tutorial">
             <directory suffix=".phpt">tests/end-to-end</directory>
         </testsuite>

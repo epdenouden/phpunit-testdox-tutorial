@@ -1,9 +1,12 @@
 # PHPUnit TestDox tutorial
 
-## Quickstart
-
-Create a fresh project directory 
+Download and install the tutorial and PHPUnit using Composer:
 ```shell script
-composer require epdenouden/phpunit-testdox-tutorial
-./vendor/bin/phpunit
+composer create-project epdenouden/phpunit-testdox-tutorial
 ```
+
+Keep self-testing until everything is green!
+```shell script
+composer test
+```
+

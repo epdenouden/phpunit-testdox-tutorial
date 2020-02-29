@@ -1,11 +1,11 @@
 --TEST--
-Override TestDox automatic naming capitalization
+Override TestDox automatic capitalization
 --FILE--
 <?php declare(strict_types=1);
 $arguments = [
     '--testdox',
     '--colors=always',
-    'tests/unit/TestDoxAcronymCapitalizationTest.php'
+    'tests/unit/TestDoxAutomaticCapitalizationTest.php'
 ];
 \array_splice($_SERVER['argv'], 1, count($arguments), $arguments);
 

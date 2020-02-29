@@ -4,7 +4,8 @@
     "type": "library",
     "keywords": [
         "phpunit",
-        "testing"
+        "testing",
+        "tutorial"
     ],
     "homepage": "https://phpunit.de/",
     "license": "BSD-3-Clause",
@@ -19,12 +20,12 @@
         "issues": "https://github.com/epdenouden/phpunit-testdox-tutorial/issues"
     },
     "prefer-stable": true,
-    "require-dev": {
+    "require": {
         "phpunit/phpunit": ">8.0"
     },
     "scripts": {
         "test": [
-            "phpunit"
+            "phpunit --color=always"
         ]
     }
 }
