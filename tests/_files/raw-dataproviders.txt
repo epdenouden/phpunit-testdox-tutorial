@@ -1,0 +1,15 @@
+PHPUnit %s by Sebastian Bergmann and contributors.
+
+[4mTestDox @dataProvider parameters[0m
+ [32m✔[0m By default @testdox will show data rows with this postfix:[2m with data set [22m[36m0[0m
+ [32m✔[0m By default @testdox will show data rows with this postfix:[2m with data set [22m[36m1[0m
+ [32m✔[0m By default @testdox will show NAMED data rows like this:[2m with [22m[36mpositive[0m
+ [32m✔[0m By default @testdox will show NAMED data rows like this:[2m with [22m[36mnegative[0m
+ [32m✔[0m toText([36m1[0m) = "[36mone[0m"
+ [32m✔[0m toText([36m2[0m) = "[36mtwo[0m"
+ [32m✔[0m Add [36mpositive[0m numbers [36m1[0m + [36m1[0m = [36m2[0m
+ [32m✔[0m Add [36mnegative[0m numbers [36m1[0m + [36m-1[0m = [36m0[0m
+
+Time: %s, Memory: %s
+
+[30;42mOK (8 tests, 8 assertions)[0m
