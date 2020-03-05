@@ -1,6 +1,6 @@
 PHPUnit %s by Sebastian Bergmann and contributors.
 
-[4mDox Automatic Capitalization[0m
+[4mTestDox automatic capitalization[0m
  [32m✔[0m JSON to XML converter
  [32m✔[0m PHPunit's TestDox is human-readable
 
