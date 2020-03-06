@@ -15,11 +15,12 @@ composer test
 
 | File | Topic |
 |------|-------|
-| `HowToUseThisTutorialTest.php` | how and where to use `@testdox` annotations|
-| `TestDoxAutomaticCapitalizationTest.php` | improve naming of individual tests and test suites |
-| `TestDoxDataProviderTest.php` | quickly identify failing scenarios by including data provider parameters |
-| `end-to-end/*.phpt` | PHPUnit end-to-end (self-)testing |
+| [`unit/HowToUseThisTutorialTest.php`](tests/unit/HowToUsethisTutorialTest.php) | `@testdox` annotation basics|
+| [`unit/TestDoxAutomaticCapitalizationTest.php`](tests/unit/TestDoxAutomaticCapitalizationTest.php) | improve naming of tests and test suites |
+| [`unit/TestDoxDataProviderTest.php`](tests/unit/TestDoxDataProviderTest.php) | data providers: quickly identify failing scenarios by including parameter values |
+| [`end-to-end/*.phpt`](tests/end-to-end/) | PHPUnit end-to-end (self-)testing |
 
 ## TestDox manual
 - PHPUnit manual on the [`@testdox` annotation](https://phpunit.readthedocs.io/en/9.0/annotations.html#testdox)
 - PHPUnit manual on the [`--testdox` command line option](https://phpunit.readthedocs.io/en/9.0/textui.html#testdox)
+- [PHPT file format reference](https://qa.php.net/phpt_details.php)

@@ -1,5 +1,8 @@
 <?php
-class TestDoxAutomaticCapitalizationTest extends \PHPUnit\Framework\TestCase
+
+use PHPUnit\Framework\TestCase;
+
+class TestDoxAutomaticCapitalizationTest extends TestCase
 {
     public function testJSONToXMLConverter() {
         $this->assertTrue(true);

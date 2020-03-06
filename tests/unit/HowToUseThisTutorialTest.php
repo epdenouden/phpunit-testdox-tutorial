@@ -1,8 +1,11 @@
 <?php
+
+use PHPUnit\Framework\TestCase;
+
 /**
  * @testdox How to use this tutorial
  */
-class HowToUseThisTutorialTest extends \PHPUnit\Framework\TestCase
+class HowToUseThisTutorialTest extends TestCase
 {
     /**
      * @testdox Fix the errors by adding @testdox annotations

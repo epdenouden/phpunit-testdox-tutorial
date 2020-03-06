@@ -1,5 +1,8 @@
 <?php
-class TestDoxDataProviderTest extends \PHPUnit\Framework\TestCase
+
+use PHPUnit\Framework\TestCase;
+
+class TestDoxDataProviderTest extends TestCase
 {
     /**
      * @testdox By default @testdox will show data rows with this postfix:
