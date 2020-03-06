@@ -1,7 +1,7 @@
 {
     "name": "epdenouden/phpunit-testdox-tutorial",
     "description": "Self-guided tutorial for PHPUnit TestDox human-readable reports.",
-    "type": "library",
+    "type": "project",
     "keywords": [
         "phpunit",
         "testing",
