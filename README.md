@@ -15,7 +15,7 @@ composer test
 
 | File | Topic |
 |------|-------|
-| [`unit/HowToUseThisTutorialTest.php`](./tests/unit/HowToUsethisTutorialTest.php) | `@testdox` annotation basics|
+| [`unit/HowToUseThisTutorialTest.php`](./tests/unit/HowToUseThisTutorialTest.php) | `@testdox` annotation basics|
 | [`unit/TestDoxAutomaticCapitalizationTest.php`](./tests/unit/TestDoxAutomaticCapitalizationTest.php) | improve naming of tests and test suites |
 | [`unit/TestDoxDataProviderTest.php`](./tests/unit/TestDoxDataProviderTest.php) | data providers: quickly identify failing scenarios by including parameter values |
 | [`end-to-end/*.phpt`](./tests/end-to-end/) | PHPUnit end-to-end (self-)testing |
